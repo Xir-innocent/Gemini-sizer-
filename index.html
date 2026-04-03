@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XIR - Powering Your Future | Solar & Electrical Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <h1>X<span class="power-symbol">I</span>R</h1>
+                <span class="tagline">Powering Your Future</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#catalog">Products</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Animated Text -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    <span class="title-word active">Reliable</span>
+                    <span class="title-word">Sustainable</span>
+                    <span class="title-word">Efficient</span>
+                    <span class="title-word">Power</span>
+                </h2>
+                <p class="hero-subtitle">Solar & Electrical Solutions</p>
+                <p class="hero-text">We design, install and maintain solar and electrical systems that deliver reliable power and long-term value for homes and businesses across Nigeria.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn-primary">Get Free Quote</a>
+                    <a href="https://wa.me/2348057015145" class="phone-cta">
+                        <span>📞</span> +234 805 701 5145
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Comprehensive solar and electrical solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="icon">☀️</div>
+                    <h3>Solar Installation</h3>
+                    <p>Complete solar system design and installation for residential, commercial, and industrial applications.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="icon">⚡</div>
+                    <h3>Electrical Works</h3>
+                    <p>Professional electrical wiring, panel upgrades, and power distribution systems.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="icon">🔧</div>
+                    <h3>Maintenance</h3>
+                    <p>Regular system maintenance, troubleshooting, and performance optimization services.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="icon">📋</div>
+                    <h3>Consultation</h3>
+                    <p>Expert energy audits, system sizing, and feasibility studies for your property.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section - NEW -->
+    <section id="catalog" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Products</span>
+                <h2>Product Catalog</h2>
+                <p class="section-subtitle">Premium solar components and generators from trusted brands</p>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="catalog-tabs">
+                <button class="tab-btn active" data-tab="components">Solar Components</button>
+                <button class="tab-btn" data-tab="generators">Solar Generators</button>
+            </div>
+
+            <!-- Solar Components Tab -->
+            <div id="components" class="tab-content active">
+                <div class="components-grid">
+                    <!-- Inverters -->
+                    <div class="component-category animate-on-scroll">
+                        <div class="category-header">
+                            <span class="category-icon">🔌</span>
+                            <h3>Solar Inverters</h3>
+                        </div>
+                        <div class="products-list">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=400" alt="Grid-Tied Inverter">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Grid-Tied Inverters</h4>
+                                    <p class="product-desc">Connect to utility grid, no battery needed. Best for reducing electricity bills through net metering.</p>
+                                    <ul class="product-specs">
+                                        <li>1.5kW - 25kW capacity range</li>
+                                        <li>97-99% efficiency</li>
+                                        <li>Anti-islanding protection</li>
+                                        <li>Single & three-phase options</li>
+                                    </ul>
+                                    <span class="product-tag">Most Economical</span>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400" alt="Hybrid Inverter">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Hybrid Inverters</h4>
+                                    <p class="product-desc">Grid-connected with battery backup. Seamless switching during outages.</p>
+                                    <ul class="product-specs">
+                                        <li>3kW - 25kW capacity range</li>
+                                        <li>Built-in MPPT charge controller</li>
+                                        <li>UPS-grade switching (<20ms)</li>
+                                        <li>Smart energy management</li>
+                                    </ul>
+                                    <span class="product-tag">Best Seller</span>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1548613053-220e75581890?w=400" alt="Off-Grid Inverter">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Off-Grid Inverters</h4>
+                                    <p class="product-desc">Complete energy independence for remote locations without grid access.</p>
+                                    <ul class="product-specs">
+                                        <li>1kW - 10kW capacity range</li>
+                                        <li>Pure sine wave output</li>
+                                        <li>Generator compatibility</li>
+                                        <li>High surge capacity</li>
+                                    </ul>
+                                    <span class="product-tag">Remote Areas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Batteries -->
+                    <div class="component-category animate-on-scroll">
+                        <div class="category-header">
+                            <span class="category-icon">🔋</span>
+                            <h3>Solar Batteries</h3>
+                        </div>
+                        <div class="products-list">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" alt="Lithium Battery">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Lithium-Ion (LiFePO4)</h4>
+                                    <p class="product-desc">Premium battery technology with longest lifespan and highest efficiency.</p>
+                                    <ul class="product-specs">
+                                        <li>2.4kWh - 20kWh capacity</li>
+                                        <li>6000+ charge cycles</li>
+                                        <li>90-95% depth of discharge</li>
+                                        <li>10+ year lifespan</li>
+                                    </ul>
+                                    <span class="product-tag premium">Premium</span>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1619641222288-3f1c77f03d5f?w=400" alt="Lead Acid Battery">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Lead-Acid Batteries</h4>
+                                    <p class="product-desc">Tried-and-tested technology for budget-conscious installations.</p>
+                                    <ul class="product-specs">
+                                        <li>100Ah - 200Ah (12V/24V)</li>
+                                        <li>500-1500 cycles</li>
+                                        <li>50% recommended depth of discharge</li>
+                                        <li>3-5 year lifespan</li>
+                                    </ul>
+                                    <span class="product-tag budget">Budget-Friendly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Solar Panels -->
+                    <div class="component-category animate-on-scroll">
+                        <div class="category-header">
+                            <span class="category-icon">☀️</span>
+                            <h3>Solar Panels</h3>
+                        </div>
+                        <div class="products-list">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400" alt="Monocrystalline Panel">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Monocrystalline Panels</h4>
+                                    <p class="product-desc">Highest efficiency panels with sleek black appearance. Best for limited roof space.</p>
+                                    <ul class="product-specs">
+                                        <li>320W - 550W per panel</li>
+                                        <li>17-22% efficiency rating</li>
+                                        <li>25-year warranty</li>
+                                        <li>Excellent low-light performance</li>
+                                    </ul>
+                                    <span class="product-tag">Recommended</span>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1545208942-e0c45d2d7c5a?w=400" alt="Polycrystalline Panel">
+                                </div>
+                                <div class="product-info">
+                                    <h4>Polycrystalline Panels</h4>
+                                    <p class="product-desc">Cost-effective solution with good performance for larger installations.</p>
+                                    <ul class="product-specs">
+                                        <li>270W - 330W per panel</li>
+                                        <li>15-17% efficiency rating</li>
+                                        <li>25-year warranty</li>
+                                        <li>Blue speckled appearance</li>
+                                    </ul>
+                                    <span class="product-tag budget">Value Option</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charge Controllers -->
+                    <div class="component-category animate-on-scroll">
+                        <div class="category-header">
+                            <span class="category-icon">🎛️</span>
+                            <h3>Charge Controllers</h3>
+                        </div>
+                        <div class="products-list">
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400" alt="MPPT Controller">
+                                </div>
+                                <div class="product-info">
+                                    <h4>MPPT Controllers</h4>
+                                    <p class="product-desc">Maximum Power Point Tracking for 30% more energy harvest.</p>
+                                    <ul class="product-specs">
+                                        <li>20A - 100A capacity</li>
+                                        <li>95-99% efficiency</li>
+                                        <li>High voltage panel support</li>
+                                        <li>Digital monitoring display</li>
+                                    </ul>
+                                    <span class="product-tag">High Performance</span>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-image">
+                                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400" alt="PWM Controller">
+                                </div>
+                                <div class="product-info">
+                                    <h4>PWM Controllers</h4>
+                                    <p class="product-desc">Simple and reliable for smaller systems and tight budgets.</p>
+                                    <ul class="product-specs">
+                                        <li>10A - 60A capacity</li>
+                                        <li>75-80% efficiency</li>
+                                        <li>Best for 12V/24V systems</li>
+                                        <li>Compact design</li>
+                                    </ul>
+                                    <span class="product-tag budget">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solar Generators Tab -->
+            <div id="generators" class="tab-content">
+                <div class="generators-grid">
+                    <!-- itel Power Tank -->
+                    <div class="generator-card animate-on-scroll">
+                        <div class="generator-badge">Budget Choice</div>
+                        <div class="generator-image">
+                            <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=400" alt="itel Power Tank">
+                        </div>
+                        <div class="generator-info">
+                            <h3>itel Power Tank</h3>
+                            <p class="generator-tagline">Reliable Entry-Level Power Station</p>
+                            <div class="generator-specs">
+                                <div class="spec-row">
+                                    <span class="spec-label">Capacity</span>
+                                    <span class="spec-value">1000Wh LiFePO4</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Output</span>
+                                    <span class="spec-value">500W (600VA Surge)</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Solar Input</span>
+                                    <span class="spec-value">400W MPPT</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Cycles</span>
+                                    <span class="spec-value">6000+ to 80%</span>
+                                </div>
+                            </div>
+                            <ul class="generator-features">
+                                <li>✓ UPS-grade switching (<20ms)</li>
+                                <li>✓ 99% MPPT efficiency</li>
+                                <li>✓ Pure sine wave output</li>
+                                <li>✓ Multiple protection systems</li>
+                                <li>✓ Quiet operation (<45dB)</li>
+                            </ul>
+                            <div class="generator-ideal">
+                                <strong>Ideal for:</strong> Small homes, computers, fans, lights, and essential electronics
+                            </div>
+                            <a href="#contact" class="btn-primary">Request Quote</a>
+                        </div>
+                    </div>
+
+                    <!-- Omnibat/Omnibar -->
+                    <div class="generator-card animate-on-scroll">
+                        <div class="generator-badge">Value Pick</div>
+                        <div class="generator-image">
+                            <img src="https://images.unsplash.com/photo-162071
